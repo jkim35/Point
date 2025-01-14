@@ -5,6 +5,10 @@ public class point{
         x = newx;
         y = newy;
     }
+    public point(){
+        x = 0;
+        y = 0;
+    }
     public int getX(){
         return x;
     }
